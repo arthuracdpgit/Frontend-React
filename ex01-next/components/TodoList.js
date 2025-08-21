@@ -8,21 +8,11 @@ function formatDate(date) {
 }
 
 export function TodoList() {
-    const name = "Hedy Lamarr"
+  
     return (
         <>
-        <h1>
-            {name}&apos;s Todos for {formatDate(today)}
-        </h1>
-        <img
-        src="https://i.imgur.com/yXOvdOSs.jpg" 
-        alt="Hedy Lamarr"
-        className="photo"
-        />
         <ul>
-            <li>Invent new traffic lights</li>
-            <li>Rehearse smart movies</li>
-            <li>Improve the spectrum technology</li>
+            <p>Desenvolvedor em formação com uma base sólida em lógica de programação e algoritmos, adquirida através do domínio de conceitos essenciais em Java. Em transição para o ecossistema de front-end, onde venho aplicando meu raciocínio lógico em projetos com JavaScript, React e Next.js. Sou um aprendiz persistente e detalhista, com experiência prática em criação de componentes, manipulação de fluxo de controle (laços aninhados) e resolução de erros de compilação, sempre focado em construir aplicações web robustas e funcionais.</p>
         </ul>
         </>
     );

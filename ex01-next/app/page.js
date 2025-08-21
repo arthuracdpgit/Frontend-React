@@ -8,9 +8,7 @@ import { Avatar } from "@/components/Avatar";
 export default function Home() {
   return (
     <section>
-      <h1>Amazing scientists</h1>
-      <Profile />
-      <Profile />
+      <h1>ARTHUR AZEVEDO COSTA DE PAULA</h1>
       <Profile />
       <hr />
       <TodoList />
