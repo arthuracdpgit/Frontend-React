@@ -1,17 +1,29 @@
-export function TodoList() {    
-  return (
-    <>
-    <h1>Hedy Lamarr's Todos</h1>
-    <img 
+const today = new Date();
+
+function formatDate(date) {
+  return new Intl.DateTimeFormat(
+    'en-US',
+    { weekday: 'long' }
+  ).format(date);
+}
+
+export function TodoList() {
+    const name = "Hedy Lamarr"
+    return (
+        <>
+        <h1>
+            {name}&apos;s Todos for {formatDate(today)}
+        </h1>
+        <img
         src="https://i.imgur.com/yXOvdOSs.jpg" 
-        alt="Hedy Lamarr" 
+        alt="Hedy Lamarr"
         className="photo"
-    />
-    <ul>
-        <li>Invent new traffic lights</li>
-        <li>Rehearse a movie scene</li>
-        <li>Improve the spectrum technology</li>
-    </ul>
-    </>
-);
+        />
+        <ul>
+            <li>Invent new traffic lights</li>
+            <li>Rehearse smart movies</li>
+            <li>Improve the spectrum technology</li>
+        </ul>
+        </>
+    );
 }
