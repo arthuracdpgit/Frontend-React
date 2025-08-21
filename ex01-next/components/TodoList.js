@@ -12,7 +12,16 @@ export function TodoList() {
     return (
         <>
         <ul>
-            <p>Desenvolvedor em formação com uma base sólida em lógica de programação e algoritmos, adquirida através do domínio de conceitos essenciais em Java. Em transição para o ecossistema de front-end, onde venho aplicando meu raciocínio lógico em projetos com JavaScript, React e Next.js. Sou um aprendiz persistente e detalhista, com experiência prática em criação de componentes, manipulação de fluxo de controle (laços aninhados) e resolução de erros de compilação, sempre focado em construir aplicações web robustas e funcionais.</p>
+            <p>
+              "Estudante de programação. Comecei aprendendo a lógica com Java, onde trabalhei com exercícios para organizar informações, resolver problemas matemáticos e usar repetições para criar padrões. Agora, estou no processo de aprender a criar sites e componentes usando React e Next.js. Já consegui configurar meu primeiro projeto e construir meu primeiro componente. Tenho me esforçado para entender os conceitos por trás do código e resolver os desafios que aparecem. Estou no começo da minha jornada, e animado para continuar construindo minhas habilidades como desenvolvedor web."
+            </p>
+            <br></br>
+            <p>Minhas tarefas para hoje:</p>
+            <br></br>
+            <li>Estudar JavaScript</li>
+            <li>Aprender React</li>
+            <li>Praticar Next.js</li>
+            
         </ul>
         </>
     );
