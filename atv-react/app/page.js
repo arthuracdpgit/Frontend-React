@@ -8,7 +8,7 @@ import { Avatar } from "@/components/Avatar";
 export default function Home() {
   return (
     <section>
-      <h1>ARTHUR AZEVEDO COSTA DE PAULA</h1>
+      <h1>Site Criado Para a Disciplina Programação Front-End!</h1>
       <Profile />
       <hr />
       <TodoList />
